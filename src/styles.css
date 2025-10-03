@@ -6,3 +6,22 @@
     font-family: 'poppins', sans-serif;
 }
 
+/* Ensure the page always fills the viewport and use a consistent background */
+html, body {
+    height: 100%;
+    background: #081b29; /* match your app background */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* Prevent images from adding unexpected inline whitespace and keep them responsive */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
